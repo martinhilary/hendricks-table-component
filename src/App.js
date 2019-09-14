@@ -16,14 +16,39 @@ class App extends Component {
   componentDidMount() {
     fetch(API)
       .then(response => response.json())
-      .then(data => console.log(data[0]))
+      .then(data => this.setState({
+        employees: data,
+      })
+      )
+    // need to do a map ontop with id 
+    //users.map(user => {
+    // const { username, name, email } = user;
     // this.setState({ employees: data })
     console.log(this.state.employees);
+  }
+
+  renderTableData() {
+    // return this.state.
+    console.log(this.state.employees);
+    return this.state.employees.map((employee) => {
+      const { employee_age, employee_name, employee_salary, id, profile_image } = employee //destructuring
+      return (
+        <tr key={id}>
+          <td>{employee_name}</td>
+          <td>{employee_age}</td>
+        </tr>
+      )
+    })
   }
   render() {
     return (
       <div className="App" >
-
+        <h1 id='title'>Hendricks Table Data</h1>
+        <table id='employees'>
+          <tbody class='table'>
+            {this.renderTableData()}
+          </tbody>
+        </table>
       </div>
     );
   }
