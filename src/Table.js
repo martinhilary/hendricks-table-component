@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import style from './table.module.css'
 
-const API = 'http://dummy.restapiexample.com/api/v1/employees'
+const API = 'https://dummy.restapiexample.com/api/v1/employees'
 class Table extends Component {
     constructor(props) {
         super(props);
