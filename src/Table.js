@@ -90,21 +90,24 @@ class Table extends Component {
                 <form onSubmit={this.handleSubmit} className='data-search'>
                     <label>
                         <span className='label-header'>Name:</span>
-                        <input type="text"
-                            placeholder="Search"
-                            value={this.state.search}
-                            onChange={this.updateSearch.bind(this)}
-                        />
                     </label>
+
+                    <input type="text"
+                        placeholder="Search"
+                        value={this.state.search}
+                        onChange={this.updateSearch.bind(this)}
+                    />
                     <label>
                         <span className='label-header'>Age</span>
-                        <select value={this.state.value} onChange={this.handleChange}>
+                    </label>
+                    <div className='age-form'>
+                        <select className='' value={this.state.value} onChange={this.handleChange}>
                             <option value="1">15 to 20 Years Old</option>
                             <option value="2">20 to 30 Years Old</option>
                             <option value="3">30 to 40 Years Old</option>
                         </select>
-                    </label>
-                    <input type="submit" value="Submit" />
+                    </div>
+                    <input type="submit" value="Search" />
                 </form>
 
 
@@ -119,3 +122,6 @@ class Table extends Component {
     }
 }
 export default Table;
+
+
+//not sure with the config for css modules do we need to install or add to config? 

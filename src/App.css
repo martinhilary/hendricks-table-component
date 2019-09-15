@@ -57,3 +57,43 @@
   background-color: #4CAF50;
   color: white;
 }
+
+
+span.label-header{
+  font-size:20px;
+  padding:15px;
+  font-weight: bold;
+}
+
+[type=reset], [type=submit], button, html [type=button]{
+  margin-left:24px;
+}
+
+.data-search{
+  margin: 20px;
+}
+
+.data-search  input[type=text]{
+  width:25%;
+}
+.age-form{
+  border: 1px solid #ccc;
+    width: 35%;
+    border-radius: 3px;
+    overflow: hidden;
+    display: inline-flex;
+}
+.age-form select {
+  padding: 0px 8px;
+  width: 130%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+.age-form select:focus {
+  outline: none;
+}
+
