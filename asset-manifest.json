@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hendricks-table-component/static/css/main.2da37eda.chunk.css",
+    "main.js": "/hendricks-table-component/static/js/main.c60422a0.chunk.js",
+    "main.js.map": "/hendricks-table-component/static/js/main.c60422a0.chunk.js.map",
+    "runtime~main.js": "/hendricks-table-component/static/js/runtime~main.bc5c5f86.js",
+    "runtime~main.js.map": "/hendricks-table-component/static/js/runtime~main.bc5c5f86.js.map",
+    "static/js/2.45b1e550.chunk.js": "/hendricks-table-component/static/js/2.45b1e550.chunk.js",
+    "static/js/2.45b1e550.chunk.js.map": "/hendricks-table-component/static/js/2.45b1e550.chunk.js.map",
+    "index.html": "/hendricks-table-component/index.html",
+    "precache-manifest.7031df9a6081085a12527074cb9ddf18.js": "/hendricks-table-component/precache-manifest.7031df9a6081085a12527074cb9ddf18.js",
+    "service-worker.js": "/hendricks-table-component/service-worker.js",
+    "static/css/main.2da37eda.chunk.css.map": "/hendricks-table-component/static/css/main.2da37eda.chunk.css.map",
+    "static/media/logo.svg": "/hendricks-table-component/static/media/logo.5d5d9eef.svg"
+  }
+}
