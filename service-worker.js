@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hendricks-table-component/precache-manifest.7031df9a6081085a12527074cb9ddf18.js"
+  "/hendricks-table-component/precache-manifest.ae093f920f51ff43d79dc5a4cd25231a.js"
 );
 
 self.addEventListener('message', (event) => {
